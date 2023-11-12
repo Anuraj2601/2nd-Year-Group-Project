@@ -1,0 +1,84 @@
+/* Reset some default styles */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+			background-image: url('Components/bg.jpg');
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
+        }
+		
+		.grad {
+			height: 86px;
+			background-image: linear-gradient(white,#191970);
+		}
+
+        /* Apply styles to the container holding the image and form */
+        .container {
+            display: flex;
+            justify-content: center; /* Horizontal centering */
+            align-items: center; /* Vertical centering */
+            height: 100%;
+        }
+
+        /* Apply styles to the left column (image) */
+        .column.left {
+            flex: 1; /* Take up 1/3 of the container */
+            text-align: center;
+        }
+
+        /* Apply styles to the right column (form) */
+        .column.right {
+            flex: 2; /* Take up 2/3 of the container */
+            padding: 20px;
+        }
+
+        /* Additional styles for your form elements */
+        form {
+            text-align: left;
+        }
+
+        /* Add more styling as needed */
+		
+		.text1 {
+		width: 250px;
+		height: 30px;
+		color: #191970;
+		font-family: Lexend Zetta;
+		font-size: 24px;
+		font-style: normal;
+		line-height: normal;
+		font-weight: 700;
+		flex-shrink: 0;
+	}
+	
+	.cont1 {
+		margin-left:250px;
+		margin-top:1px;
+		letter-spacing: 3px;
+	}
+	
+	input[type=submit]
+	{
+		margin: 0px 20px 40px 40px;
+		box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+		background-color: #191970;
+		color: white;
+		text-align: center;		
+		line-height: 8px;
+		cursor: pointer;
+	}
+	
+	#ip1 {
+		border-radius: 25px;
+		border: 2px solid #191970;
+		padding: 10px; 
+		width: 150px;
+		height: 10px;  
+	}
+	
+	
+		
+	
